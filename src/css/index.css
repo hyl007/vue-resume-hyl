@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+.icon {
+    width: 1.5em; height: 1.5em;
+    vertical-align: -0.4em;
+    fill: currentColor;
+    overflow: hidden;
+}
+textarea{
+    resize: none;
+}
+div[v-cloak]{display: none;}
+body{
+    font-size: 18px;
+}
+a{text-decoration: none;color: inherit}
+a:hover{color: inherit}
+ol,ul{list-style: none}
+
+.nav-bold{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.btn-default {
+    color: #E74C3C;
+    background-color: transparent;
+    border: 1px solid #E74C3C;
+    border-radius: 3px;
+}
+.btn-default:hover {
+    color: white;
+    background-color: #E74C3C;
+    border-color: #adadad;
+}
+.login{
+    margin-right: 10px;
+}
+.information,
+.text-name{
+    text-align: center;
+}
+.bg-warning{
+    background: #dff0d8;
+}
+.informationList{
+    border: 2px solid #dff0d8;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.informationList  li{
+    text-overflow : ellipsis;
+    white-space : nowrap;
+    overflow : hidden;
+}
+.text-bottom{
+    text-align: center;
+    margin-top: 20px;
+}
+.row{
+    margin-bottom: 20px;
+}
+
+.footerBottom{
+    margin-top: 30px;
+    background-color: #dff0d8;
+    text-align: center;
+}
+.footer-style{
+    font-size: 12px;
+}
+/*****login***/
+.userlogin{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 300px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+.userlogin form{
+    width: 100%;
+    padding: 20px;
+}
+.userlogin .login-title{
+    text-align: center;
+}
+.userlogin .btn-right{
+    right: 10px;
+}
+.x{
+    position: relative;
+}
+.removeX{
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+.share{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 400px;
+    min-height: 100px;
+}
